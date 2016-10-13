@@ -68,6 +68,9 @@
             <%= f.submit %>
           </div>
           <% end %>
+          <div class="hvr-underline-from-center">
+            <%= social_share_button_tag(goal.title, :url => "mytravelist.heokuapp.com") %>
+          </div>
 
         <div class="twelve column">
           <%= link_to 'Pledge', new_pledge_path(:id => goal.id), :method => :get, class: "hvr-bounce-to-right button" %>

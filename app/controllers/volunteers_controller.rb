@@ -1,6 +1,7 @@
 class VolunteersController < ApplicationController
   before_action :set_volunteer, only: [:show, :edit, :update, :destroy]
   before_action :is_authenticated, except: [:index]
+  before_action :search
   # GET /action
   def index
     @volunteers = Volunteer.all

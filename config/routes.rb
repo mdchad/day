@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
 
 
+  get 'beneficiaries/index'
+
   root 'main#index'
 
   # FACEBOOK AUTHENTICATION

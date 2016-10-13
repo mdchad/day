@@ -304,15 +304,30 @@ label.navbar, input[type=checkbox].navbar {
   label.navbar, input[type=checkbox].navbar {
     visibility: visible; } }
 
+#nav-right {
+  color: white ;
+  background-color: #fc3844;
+  line-height: 2.0em;
+  margin-top: 5px;
+}
+
+#nav-right2 {
+  line-height: 2.8em;
+}
+
 .action {
   text-align: center;
   margin-bottom: 20px;
 }
 
+.orange-background {
+  background-color: #3b5998;
+  color: white !important;
+}
+
 /* Bounce To Right */
 .hvr-bounce-to-right {
-  color: white;
-  background-color: #3b5998;
+  color: #333;
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
@@ -640,6 +655,10 @@ duplicate
   margin-left: 10px;
 }
 
+.right-space {
+  margin-right: 10px;
+}
+
 #myBtn {
   background-color: #fc3844;
   border: none;
@@ -732,7 +751,8 @@ duplicate
 #mouse-scroll {
   /*position: relative;*/
   margin: auto;
-  padding-left: 70px;
+  margin-left: 450px;
+  padding-left: 100px;
   padding-top: 55px;
   /*left: 80%
   top: 80px;
